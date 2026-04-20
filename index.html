@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Camp de Prière - La Montagne Sainte</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0b3d91;
+    color:white;
+}
+
+/* HEADER */
+header{
+    text-align:center;
+    padding:60px 20px;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+}
+
+.logo{
+    width:120px;
+    border-radius:10px;
+}
+
+/* TITRES */
+h1{
+    font-size:40px;
+    margin:10px 0;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+/* BOUTONS */
+.btn{
+    display:inline-block;
+    margin:10px;
+    padding:12px 20px;
+    background:white;
+    color:#0b3d91;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#ddd;
+}
+
+/* SECTIONS */
+section{
+    padding:50px 20px;
+    text-align:center;
+}
+
+/* RÉSEAUX */
+.socials{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+}
+
+.socials a{
+    min-width:200px;
+}
+
+/* GALERIE */
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:10px;
+}
+
+.gallery img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+/* WHATSAPP */
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px;
+    border-radius:50px;
+    text-decoration:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" class="logo">
+
+    <h1>Camp de Prière</h1>
+    <p>La Montagne Sainte</p>
+    <p>Un lieu de transformation spirituelle</p>
+
+    <div>
+        <a href="#contact" class="btn">Nous rejoindre</a>
+    </div>
+</header>
+
+<section>
+    <h2>Notre Vision</h2>
+    <p>
+        Établir un lieu permanent de prière, de délivrance et de restauration.
+    </p>
+</section>
+
+<section>
+    <h2>Nos Activités</h2>
+    <p>Prière • Enseignement • Délivrance • Prophétie</p>
+</section>
+
+<section>
+    <h2>Galerie</h2>
+    <div class="gallery">
+        <img src="image1.jpg">
+        <img src="image2.jpg">
+        <img src="image3.jpg">
+    </div>
+</section>
+
+<section>
+    <h2>Suivez-nous</h2>
+
+    <div class="socials">
+
+        <a href="https://www.facebook.com/share/1CqfkHZpYv/" class="btn" target="_blank">Facebook</a>
+
+        <a href="https://tiktok.com/@montagnesainte.9609" class="btn" target="_blank">TikTok</a>
+
+        <a href="https://x.com/CampS60127" class="btn" target="_blank">X (Twitter)</a>
+
+        <a href="https://www.instagram.com/cplamontagnesainte" class="btn" target="_blank">Instagram</a>
+
+        <a href="https://youtube.com/@campdeprierelamontagnesainte" class="btn" target="_blank">YouTube</a>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>📞 +228 93 14 95 64</p>
+</section>
+
+<a class="whatsapp" href="https://wa.me/22896097979" target="_blank">
+💬
+</a>
+
+</body>
+</html>
